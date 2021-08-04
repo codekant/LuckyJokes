@@ -23,12 +23,26 @@
     <div id="app">
         <h1>Lucky<br>Jokes!!</h1>
         <div class="container">
-            he found this funny<br>
+         he found this funny<br>
             lolololol lmao xd<br>
             <img id="joke" class="img" src="img/0.png" draggable="false" alt="this sucks"><br>
             <button id="jokebtn" class="btn">Get Joke</button>
         </div>
-        <p class="footer">&copy; LuckyJokes, 2022</p>
+        <div id="keymodal" class="modal">
+            <div class="modal-body">
+                <a href="javascript:void(0);" id="close"><span class="close">&times;</span></a>
+                <h3>Keybinds</h3>
+                <div>
+                    <kbd>Space</kbd> <p class="bind">Get Joke</p><br>
+                    <kbd>R</kbd> <p class="bind">Reload</p><br>
+                    <kbd>C</kbd> <p class="bind">Cark</p><br>
+                </div>
+                <br><br>
+            </div>
+        </div>
+        <p class="footer">
+            <a href="javascript:void(0);" id="keymodaltrig">Keybinds</a><br><br>
+            &copy; LuckyJokes, 2022</p>
     </div>
     <script src="static/client.js"></script>
 </body>
