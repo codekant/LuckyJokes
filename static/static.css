@@ -110,19 +110,3 @@ kbd {
         width: 80%;
     }
 }
-/* Icons */
-.svg-icon {
-    width: 1em;
-    height: 1em;
-  }
-  
-  .svg-icon path,
-  .svg-icon polygon,
-  .svg-icon rect {
-    fill: #fff;
-  }
-  
-  .svg-icon circle {
-    stroke: #fff;
-    stroke-width: 1;
-  }
