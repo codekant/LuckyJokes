@@ -1,6 +1,6 @@
 window.onload = function() {
     console.log("y bother inspecting this beautiful site..\nCTRL+SHIFT+I again and just go back\nyou wont find anything good here\nanyways ur wish")
-    let t = 56;
+    let t = 61;
     document.getElementById("jokebtn").addEventListener("click", getFunnyJoke);
     document.onkeydown = function(ev) {
         switch(ev.key) {
